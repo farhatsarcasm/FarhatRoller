@@ -31,7 +31,7 @@ local rollCount = 0
 local currentFamilyRolls = 0
 local familyRollsDetected = false
 local TARGET_CLAN = "Kamado"
-local CLAN_RESTRICTION = "Any" -- "Any" = dropdown aktif, nama spesifik = terkunci
+local CLAN_RESTRICTION = "Kamado"
 local AutoRestore = TeleportService:GetTeleportSetting("ClanAutoRestore") or false
 
 local savedCount = TeleportService:GetTeleportSetting("ClanRollCount")
