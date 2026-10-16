@@ -29,8 +29,8 @@ local running = false
 local rollCount = 0
 local currentFamilyRolls = 0
 local familyRollsDetected = false
-local TARGET_CLAN = "Kamado"
-local CLAN_RESTRICTION = "Kamado"
+local TARGET_CLAN = "Kanroji"
+local CLAN_RESTRICTION = "Kanroji"
 local AutoRestore = TeleportService:GetTeleportSetting("ClanAutoRestore") or false
 
 local savedCount = TeleportService:GetTeleportSetting("ClanRollCount")
